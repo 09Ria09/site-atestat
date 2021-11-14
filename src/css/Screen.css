@@ -1,0 +1,40 @@
+.Screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    color: white;
+    position: relative;
+    padding:min(80px, 10vw);
+    display:flex;
+    z-index:5;
+    align-items:center;
+    text-align:justify;
+    width: min(100%,450px);
+    min-height: 450px;
+    box-sizing:border-box;
+    border-radius: 50%;
+    animation: backgroundColorChange 120s infinite;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
+
+@keyframes backgroundColorChange {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: deeppink;
+    }
+    50%{
+        background-color: darkolivegreen;
+    }
+    75%{
+        background-color: darkblue;
+    }
+    100%{
+        background-color: red;
+    }
+}
