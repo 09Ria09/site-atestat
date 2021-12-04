@@ -16,25 +16,27 @@
     width: min(100%,450px);
     min-height: 450px;
     box-sizing:border-box;
-    border-radius: 50%;
-    animation: backgroundColorChange 120s infinite;
+    /*border-radius: 50%;
+    animation: float 60s ease-in-out infinite;*/
+    background-color: darkblue;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    flex-direction: column;
 }
 
-@keyframes backgroundColorChange {
+@keyframes float {
     0% {
-        background-color: red;
-    }
-    25% {
-        background-color: deeppink;
-    }
-    50%{
-        background-color: darkolivegreen;
-    }
-    75%{
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
         background-color: darkblue;
     }
-    100%{
-        background-color: red;
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+        background-color: blueviolet;
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        background-color: darkblue;
     }
 }
