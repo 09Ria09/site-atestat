@@ -5,10 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-color: #0f0d35;
 }
 
 html{
   scroll-snap-type: y proximity;
+  background-color: #0f0d35;
 }
 
 code {

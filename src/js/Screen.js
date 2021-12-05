@@ -21,8 +21,10 @@ function Screen(props){
                         position: "absolute",
                         right: -(1-Math.min(1,percentage))*500,
                         bottom: "0",
-                        width: "auto",
-                        height: "70vh"
+                        maxWidth: "30vw",
+                        maxHeight: "70vh",
+                        objectFit: "fill",
+                        display:window.innerWidth<1000?"none":""
                     }}/>
                 </div>
             )}/>

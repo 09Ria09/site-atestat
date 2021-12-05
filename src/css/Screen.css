@@ -1,6 +1,6 @@
 .Screen{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -13,13 +13,13 @@
     z-index:5;
     align-items:center;
     text-align:justify;
-    width: min(100%,450px);
+    width: min(100%,600px);
     min-height: 450px;
     box-sizing:border-box;
     /*border-radius: 50%;
     animation: float 60s ease-in-out infinite;*/
-    background-color: darkblue;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    background-color: #0f0d35;
+    /*box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);*/
     flex-direction: column;
 }
 

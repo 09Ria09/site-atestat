@@ -1,12 +1,21 @@
 import NavBar from "./js/NavBar";
 import React from "react";
 import Screen from "./js/Screen";
+import { Parallax, Background } from "react-parallax";
 
 function App() {
     return (
         <div className="App">
             <NavBar/>
-                <Screen title={'Who Was Jean-Michel Basquiat?'} bg={'1'} pic={'32'}>
+            <div id={1} style={{scrollSnapAlign:"start"}}>
+                <Parallax className={"Screen"}
+                          bgImage={'1.jpg'}
+                          bgImageStyle={{height:"100vh", minWidth:"100%", width:"auto"}}
+                          strength={200}
+                          renderLayer={(percentage) => (<h1 className={"animate__animated animate__jackInTheBox"} style={{animationDelay:"0.3s",position:"relative", width:"100%", textAlign:"center", fontSize:"max(50px,6vw)", color:"white", textShadow:"0 0 2vh #000"}}>Jean-Michel Basquiat</h1>)}
+                />
+            </div>
+                <Screen title={'Who Was Jean-Michel Basquiat?'} bg={'11'} pic={'32'}>
                         Jean-Michel Basquiat was a Neo-Expressionist painter in the 1980s. He is best known for his primitive style and his collaboration with pop artist Andy Warhol.
                         <br/>Jean-Michel Basquiat first attracted attention for his graffiti under the name "SAMO" in New York City. He sold sweatshirts and postcards featuring his artwork on the streets before his painting career took off. He collaborated with Andy Warhol in the mid-1980s, which resulted in a show of their work. Basquiat died on August 12, 1988, in New York City.
                 </Screen>
