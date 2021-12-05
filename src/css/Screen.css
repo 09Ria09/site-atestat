@@ -1,21 +1,21 @@
-.Screen{
+.Screen {
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.text{
+.text {
     color: white;
     position: relative;
-    padding:min(80px, 10vw);
-    display:flex;
-    z-index:5;
-    align-items:center;
-    text-align:justify;
-    width: min(100%,600px);
+    padding: min(80px, 10vw);
+    display: flex;
+    z-index: 5;
+    align-items: center;
+    text-align: justify;
+    width: min(100%, 600px);
     min-height: 450px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     /*border-radius: 50%;
     animation: float 60s ease-in-out infinite;*/
     background-color: #0f0d35;
@@ -25,17 +25,17 @@
 
 @keyframes float {
     0% {
-        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
         transform: translatey(0px);
         background-color: darkblue;
     }
     50% {
-        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
         transform: translatey(-20px);
         background-color: blueviolet;
     }
     100% {
-        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
         transform: translatey(0px);
         background-color: darkblue;
     }
