@@ -10,7 +10,7 @@ function NavBar(){
             <NavItem to={'3'}/>
             <NavItem to={'9'}/>
             <NavItem to={'5'}/>
-            <NavItem to={'8'}/>
+            <NavItem to={'35'}/>
             <NavItem to={'6'}/>
         </div>
     )

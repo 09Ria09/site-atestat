@@ -45,7 +45,7 @@ function App() {
                         <br/>
                         On his own, Basquiat continued to exhibit around the country and the world. In 1986, he traveled to Africa for a show in Abidjan, Ivory Coast. That same year, the 25-year-old exhibited nearly 60 paintings at the Kestner-Gesellschaft Gallery in Hanover, Germany — becoming the youngest artist to ever showcase his work there.
                 </Screen>
-                <Screen title={'Personal Problems'} bg={'8'} pic={'1'}>
+                <Screen title={'Personal Problems'} bg={'35'} pic={'1'}>
                         As his popularity soared, so did Basquiat's personal problems. By the mid-1980s, friends became increasingly concerned by his excessive drug use. He became paranoid and isolated himself from the world around him for long stretches. Desperate to kick a heroin addiction, he left New York for Hawaii in 1988, returning a few months later and claiming to be sober.
                 </Screen>
             <Screen title={'Death'} bg={'6'} pic={'3'}>
